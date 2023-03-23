@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "componentesLuciaRocha": {
+    "componentesVeliz": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/componentes-lucia-rocha",
+            "outputPath": "dist/componentes-veliz",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "componentesLuciaRocha:build:production"
+              "browserTarget": "componentesVeliz:build:production"
             },
             "development": {
-              "browserTarget": "componentesLuciaRocha:build:development"
+              "browserTarget": "componentesVeliz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "componentesLuciaRocha:build"
+            "browserTarget": "componentesVeliz:build"
           }
         },
         "test": {
